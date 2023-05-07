@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./js/min.js">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+      <h1>Bài tập 1</h1>
+        <h2>Tính tiền lương nhân viên:</h2>
+        <p class="text-primary">Lương 100.000 vnd / ngày. Hãy tính số lương nhận được:</p>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số tiền:</label>
+          <input type="text" class="form-control" name="" id="tienLuongNgay" placeholder="Nhập số Tiền:">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số ngày làm:</label>
+          <input type="text" class="form-control" name="" id="soNgayLam" placeholder="Nhập số ngày:">
+        </div>
+        <button class="btn btn-success" id="tinhTien">Tính Lương Nhân Viên</button>
+        <div class="hien_thi text-black rounded-5 py-2 px-4" id="tienThucNhan"></div>
+      </div>
+      <!-- ===============BÀI TẬP 2 ================ -->
+      <div class="container">
+        <h1>Bài tập 2</h1>
+        <h2>Tính TRUNG Bình:</h2>
+        <p class="text-primary">Tính trung bình các số sau:</p>
+        <!-- số 1 -->
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số:</label>
+          <input type="text" class="form-control" name="" id="so1" placeholder="Nhập số :">
+        </div>
+        <!-- số 2 -->
+        <div class="mb-3">
+            <label for="" class="form-label">Nhập số:</label>
+            <input type="text" class="form-control" name="" id="so2" placeholder="Nhập số :">
+          </div>
+          <!-- số 3 -->
+          <div class="mb-3">
+            <label for="" class="form-label">Nhập số:</label>
+            <input type="text" class="form-control" name="" id="so3" placeholder="Nhập số :">
+          </div>
+          <!-- số 4 -->
+          <div class="mb-3">
+            <label for="" class="form-label">Nhập số:</label>
+            <input type="text" class="form-control" name="" id="so4" placeholder="Nhập số :">
+          </div>
+          <!-- số 5 -->
+          <div class="mb-3">
+            <label for="" class="form-label">Nhập số:</label>
+            <input type="text" class="form-control" name="" id="so5" placeholder="Nhập số :">
+          </div>
+        <button class="btn btn-success" id="tinhTrungBinh">Kết Quả</button>
+        <div class="hien_thi text-black rounded-5 py-2 px-4" id="ketQua"></div>
+      </div>
+      <!-- ====================Bài 3=============== -->
+      <div class="container">
+        <h1>Bài tập 3</h1>
+        <h2>CHUYỂN ĐỔI TIỀN USD SANG TIỀN VIỆT VNĐ</h2>
+        <p class="text-primary">Đổi tiền usd sang tiền việt</p>
+        <div class="mb-3">
+          <label for="" class="form-label usd">Nhập số tiền USD:</label>
+          <div class="usd">
+          <input type="text" class="form-control" name="" id="tienUSD" placeholder="Nhập số Tiền USD:"> 
+          <button class="tien"> USD</button></div>
+        </div>
+        
+        <button class="btn btn-success" id="tinhTienVND">Đổi tiền</button>
+        <div class="hien_thi text-black rounded-5 py-2 px-4" id="VND"></div>
+      </div>
+     <!-- ========Bài 4=========== -->
+     <div class="container">
+      <h1>Bài tập 4</h1>
+        <h2>Tính Diện Tích và chu vi hình chữ nhật</h2>
+        <p class="text-primary">Tính diện tích và chu vi khi có chiều dài và chiều rộng(Tự thêm chiều dài và chiều rộng): </p>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập Chiều dài:</label>
+          <input type="text" class="form-control" name="" id="chieuDai" placeholder="Nhập chiều dài:">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập chiều rộng:</label>
+          <input type="text" class="form-control" name="" id="chieuRong" placeholder="Nhập chiều rộng:">
+        </div>
+        <button class="btn btn-success" id="tinhDienTich">Tính Toán:</button> <br> <br>
+        <h4>Diện Tích:</h4>
+        <div class="hien_thi text-black rounded-5 py-2 px-4" id="dienTich">
+          Diện Tích Hình Chữ Nhật là:
+        </div>
+        <h4>Chu vi:</h4>
+        <div class="hien_thi text-black rounded-5 py-2 px-4" id="chuVi">Chu Vi Hình Chữ Nhật là:</div>
+      </div>
+      </div>
+      <!-- ============BÀI 5 Bắt đầu============= -->
+      <div class="container">
+        <h1>Bài tập 5</h1>
+        <h2>Tính tổng ký số có 2 chữ số</h2>
+        <p class="text-primary">Nhập chữ số có 2 số. tính tổng 2 số đó.</p>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập ký số:</label>
+          
+          <input type="text" class="form-control" name="" id="kySo" placeholder="Nhập số:"> 
+          
+        </div>
+        
+        <button class="btn btn-success" id="tinhTongSo">Tính Tổng:</button>
+        <div class="hien_thi text-black rounded-5 py-2 px-4" id="hienThiTong"></div>
+      </div>
+      
+    <script src="./js/min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
